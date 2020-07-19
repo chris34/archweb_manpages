@@ -3,7 +3,7 @@
  */
 
 .man-page-content {
-    width: 80ch;
+    max-width: 80ch;
 }
 
 .man-page-content div.manual-text {
