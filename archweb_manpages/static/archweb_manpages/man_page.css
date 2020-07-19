@@ -9,6 +9,7 @@
 .man-page-content div.manual-text {
     text-align: justify;
     margin-left: 5ex;
+    hyphens: auto;
 }
 
 /* don't align nested elements */
