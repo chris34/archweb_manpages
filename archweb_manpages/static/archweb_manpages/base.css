@@ -80,11 +80,22 @@ ol.multi-column > li {
 /* last-updates table */
 table.last-updates {
     text-align: left;
+    border-bottom: medium solid black;
+    border-top: medium solid black;
 }
 table.last-updates th,
 table.last-updates td {
     padding-right: 1em;
 }
+table.last-updates th {
+  border-top: thin solid black;
+}
+
+table.last-updates {
+
+}
+
+
 
 section.search-results-pkg dl {
     margin: 0;
