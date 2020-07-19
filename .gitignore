@@ -1,5 +1,7 @@
 /.cache
 
+*.pyc
+
 /convert_txt
 /convert_txt.c
 /convert_txt.d
