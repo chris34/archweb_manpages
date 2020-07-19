@@ -54,7 +54,6 @@
 .man-page-content a.permalink {
     color: inherit;
     text-decoration: inherit;
-    border-bottom: thin dotted;
 }
 .man-page-content a.permalink:only-child:hover:after {
     /* :only-child is necessary, otherwise the following text would be shifted */
@@ -104,7 +103,7 @@
 /* Header and footer lines. */
 
 table.head {    width: 100%;
-                border-bottom: 1px dotted #808080;
+                border-bottom: thin solid #808080;
                 margin-bottom: 1em;
                 font-size: smaller; }
 td.head-vol {   text-align: center; }
@@ -113,7 +112,7 @@ td.head-rtitle {
 span.Nd { }
 
 table.foot {    width: 100%;
-                border-top: 1px dotted #808080;
+                border-top: thin solid #808080;
                 margin-top: 1em;
                 font-size: smaller; }
 td.foot-os {    text-align: right; }
